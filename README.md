@@ -34,7 +34,7 @@ Once verification is complete, you will be directed to your *team dashboard*:
 
 You are redirected to the Team Dashboard. Click on **AWS Console**.
 
-![](/static/images/setup/EventEngine-Team-Dashboard.png "Event Engine team dashboard after login")
+![](/static/images/setup/Team-Dashboard.png "Event Engine team dashboard after login")
 
 On the next screen, click on **Open Console**.
 
