@@ -26,7 +26,7 @@ You'll be asked to verify your identity either via an **Email One-Time Password*
 <br/><br/>
 Email OTPs may take a few minutes to come through, so please be patient and remember to check your junk folder!
 
-![](/static/images/setup/OTP.png "One Time Password Login")
+![](/static/images/setup/OTP-Login.png "One Time Password Login")
 
 Once verification is complete, you will be directed to your *team dashboard*:
 
