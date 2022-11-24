@@ -26,7 +26,7 @@ You'll be asked to verify your identity either via an **Email One-Time Password*
 <br/><br/>
 Email OTPs may take a few minutes to come through, so please be patient and remember to check your junk folder!
 
-![](/static/images/setup/EventEngine-Verify-Methods.png "One Time Password Login")
+![](/static/images/setup/OTP.png "One Time Password Login")
 
 Once verification is complete, you will be directed to your *team dashboard*:
 
@@ -58,7 +58,7 @@ Amazon SageMaker Studio should already have been provisioned for you.
 
 A new tab will open to the SageMaker Studio UI for your user, as shown below.
 
-![](/static/images/setup/Studio-Launcher-SystemTerm-Highlight.png "SageMaker Studio launcher screen with system terminal highlighted")
+![](/static/images/setup/Studio-Launcher-Term-Highlight.png "SageMaker Studio launcher screen with system terminal highlighted")
 
 > **Note**
 > If you see a loading screen when opening Studio for the first time, don't worry: This initial process can sometimes take a few minutes to complete. If it's been longer than ~5 minutes, try refreshing the tab or closing it and clicking **Open Studio** again.
