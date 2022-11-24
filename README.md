@@ -30,16 +30,13 @@ Email OTPs may take a few minutes to come through, so please be patient and reme
 
 Once verification is complete, you'll be directed to your *team dashboard*:
 
-![](/static/images/setup/EventEngine-Team-Dashboard.png "Event Engine team dashboard after login")
-
-
 ## Open the AWS Console
 
-You are redirected to the Team Dashboard. Click on AWS Console.
+You are redirected to the Team Dashboard. Click on **AWS Console**.
 
-![](/static/images/setup/EventEngine-Console-Login.png "Event Engine AWS Login dialog")
+![](/static/images/setup/EventEngine-Team-Dashboard.png "Event Engine team dashboard after login")
 
-On the next screen, click on **Open AWS Console**.
+On the next screen, click on **Open Console**.
 
 ![](/static/images/setup/open-console-2.png "Event Engine AWS Login dialog")
 
@@ -78,8 +75,11 @@ In the terminal, type the following command:
 git clone https://github.com/MichaelDasseville/Autogluon-Workshop.git
 :::
 
-Once done, you should see the workshop code in the folder sidebar UI as shown below.
-
 ![](/static/images/setup/Studio-Git-Clone-Workshop.png)
+
+Once done, you should see the workshop code in the folder sidebar.
+Double Click the workshop folder.
+
+![](/static/images/setup/Studio-Git-folder.png)
 
 **Congratulations!!** You are now ready to tackle the labs!
