@@ -58,22 +58,22 @@ Amazon SageMaker Studio should already have been provisioned for you.
 
 A new tab will open to the SageMaker Studio UI for your user, as shown below.
 
-![](/static/images/setup/Studio-Launcher-Term-Highlight.png "SageMaker Studio launcher screen with system terminal highlighted")
+![](/static/images/setup/Launcher.png "SageMaker Studio launcher screen")
 
 > **Note**
 > If you see a loading screen when opening Studio for the first time, don't worry: This initial process can sometimes take a few minutes to complete. If it's been longer than ~5 minutes, try refreshing the tab or closing it and clicking **Open Studio** again.
 
 ## Fetch the Workshop Code
 
-In the SageMaker notebook, click on the **Launch Terminal in current SageMaker Image** icon. The kernel must be fully started (the circle on the right next to the Share button must be empty) to be able to click on the icon.
+In the "Launcher" tab, scroll down to "Image Terminal" and click on it.
 
-![](/static/images/setup/terminal-button.png "Terminal Button")
+![](/static/images/setup/Studio-Launcher-Term-Highlight.png "SageMaker Studio launcher screen with system terminal highlighted")
 
-In the terminal, type the following command:
+In the terminal window, type the following command:
 
-:::code{showCopyAction=true}
+```
 git clone https://github.com/MichaelDasseville/Autogluon-Workshop.git
-:::
+```
 
 ![](/static/images/setup/Studio-Git-Clone-Workshop.png)
 
