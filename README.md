@@ -10,7 +10,8 @@ Follow these instructions to get set up with a SageMaker notebook environment an
 
 ## Log in to the AWS Workshop Portal
 
-In workshop-provided accounts, the SageMaker environment should be set up for you automatically. You will need the **Hash Code** provided upon entry, and your email address to track your unique session.
+In an AWS-hosted event, the SageMaker environment is set up for you automatically.
+You will need the **Hash Code** provided upon entry, and your email address to track your unique session.
 
 Connect to the portal by clicking the link or browsing to **[https://dashboard.eventengine.run/](https://dashboard.eventengine.run/)**.
 
@@ -27,16 +28,20 @@ You'll be asked to verify your identity either via an **Email One-Time Password*
 <br/><br/>
 Email OTPs may take a few minutes to come through, so please be patient and remember to check your junk folder!
 
-Once verification is complete, you'll be directed to your *team dashboard* as shown below:
+Once verification is complete, you'll be directed to your *team dashboard*:
 
 ![](/static/images/setup/EventEngine-Team-Dashboard.png "Event Engine team dashboard after login")
 
 
 ## Open the AWS Console
 
-From your Event Engine team dashboard, click **AWS Console**. This will open the AWS Console Login dialog (shown below), from which you can open your temporary account's AWS console or even copy CLI credentials for the account.
+You are redirected to the Team Dashboard. Click on AWS Console.
 
 ![](/static/images/setup/EventEngine-Console-Login.png "Event Engine AWS Login dialog")
+
+On the next screen, click on **Open AWS Console**.
+
+![](/static/images/setup/open-console-2.png "Event Engine AWS Login dialog")
 
 After opening the AWS Console, please do not change the AWS Region for this event.
 
@@ -65,7 +70,7 @@ A new tab will open to the SageMaker Studio UI for your user, as shown below.
 
 In the SageMaker notebook, click on the **Launch Terminal in current SageMaker Image** icon. The kernel must be fully started (the circle on the right next to the Share button must be empty) to be able to click on the icon.
 
-![](/static/images/setup/Studio-Launcher-SystemTerm-Highlight.png "SageMaker Studio launcher screen with system terminal highlighted")
+![](/static/images/setup/terminal-button.png "Terminal Button")
 
 In the terminal, type the following command:
 
