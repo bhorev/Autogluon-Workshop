@@ -10,14 +10,12 @@ Follow these instructions to get set up with a SageMaker notebook environment an
 
 ## Log in to the AWS Workshop Portal
 
-In an AWS-hosted event, the SageMaker environment is set up for you automatically.
-You will need the **Hash Code** provided upon entry, and your email address to track your unique session.
-
-Connect to the portal by clicking the link or browsing to **[https://dashboard.eventengine.run/](https://dashboard.eventengine.run/)**.
+Go to: **[https://dashboard.eventengine.run/](https://dashboard.eventengine.run/)**. You will be redirected to the page below.
 
 ![](/static/images/setup/EventEngine-Home.png "Screenshot of Event Engine login page")
 
-Enter the provided hash in the text box. The button on the bottom right corner changes to **Accept Terms & Login**. Click on that button to continue.
+Enter the provided **Hash Code** in the text box.
+The button on the bottom right corner changes to **Accept Terms & Login**. Click on that button to continue.
 
 You'll be asked to verify your identity either via an **Email One-Time Password** or logging in with your **Amazon.com retail account**.
 
@@ -28,7 +26,9 @@ You'll be asked to verify your identity either via an **Email One-Time Password*
 <br/><br/>
 Email OTPs may take a few minutes to come through, so please be patient and remember to check your junk folder!
 
-Once verification is complete, you'll be directed to your *team dashboard*:
+![](/static/images/setup/EventEngine-Verify-Methods.png "One Time Password Login")
+
+Once verification is complete, you will be directed to your *team dashboard*:
 
 ## Open the AWS Console
 
@@ -48,7 +48,7 @@ Use the search bar in the top of the console to open the [Amazon SageMaker Conso
 
 ![](/static/images/setup/AWS-Open-SageMaker.png "Check region and open SageMaker from the AWS Console home page")
 
-#### Open SageMaker Studio
+### Open SageMaker Studio
 
 Amazon SageMaker Studio should already have been provisioned for you.
 
@@ -63,7 +63,7 @@ A new tab will open to the SageMaker Studio UI for your user, as shown below.
 > **Note**
 > If you see a loading screen when opening Studio for the first time, don't worry: This initial process can sometimes take a few minutes to complete. If it's been longer than ~5 minutes, try refreshing the tab or closing it and clicking **Open Studio** again.
 
-#### Fetch the Workshop Code
+## Fetch the Workshop Code
 
 In the SageMaker notebook, click on the **Launch Terminal in current SageMaker Image** icon. The kernel must be fully started (the circle on the right next to the Share button must be empty) to be able to click on the icon.
 
@@ -81,5 +81,17 @@ Once done, you should see the workshop code in the folder sidebar.
 Double Click the workshop folder.
 
 ![](/static/images/setup/Studio-Git-folder.png)
+
+## Open the First Notebook
+
+Open the notebook **Tabular_data_example.ipynb** (Double click it).
+You are prompeted to select a Notebook Environment.
+Choose: **PyTorch 1.12 Python 3.8 CPU Optimized**
+
+![](/static/images/setup/notebook-env.png)
+
+You will see an indication that the notebook kernel is starting. Wait few minutes for the process to finish.
+
+![](/static/images/setup/starting-lernel.png)
 
 **Congratulations!!** You are now ready to tackle the labs!
