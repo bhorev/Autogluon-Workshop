@@ -80,7 +80,7 @@ git clone https://github.com/MichaelDasseville/Autogluon-Workshop.git
 Once done, you should see the workshop code in the folder sidebar.
 Double Click the workshop folder.
 
-![](/static/images/setup/Studio-Git-folder.png)
+![](/static/images/setup/Git-folder.png)
 
 ## Open the First Notebook
 
